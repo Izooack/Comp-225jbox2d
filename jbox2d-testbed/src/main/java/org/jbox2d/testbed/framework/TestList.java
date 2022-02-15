@@ -73,6 +73,7 @@ import org.jbox2d.testbed.tests.VaryingRestitution;
 import org.jbox2d.testbed.tests.VerticalStack;
 import org.jbox2d.testbed.tests.WaveMachine;
 import org.jbox2d.testbed.tests.Web;
+import org.jbox2d.testbed.tests.SylviaTest;
 
 /**
  * @author Daniel Murphy
@@ -107,6 +108,7 @@ public class TestList {
     model.addTest(new PyramidTest());
     model.addTest(new CircleStress());
     model.addTest(new DominoTower());
+    model.addTest(new SylviaTest());
 
     // more interactive..
     model.addCategory("- Interactive -");
